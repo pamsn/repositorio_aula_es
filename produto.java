@@ -2,11 +2,12 @@ public class Produto {
 
 	private String nome;
 	private double preco;
-	private int qtd;
+	protected int qtd;
 	private String marca;
 	private String tam;
 
-	public Produto(String nome, double preco, int qtd, String marca, String tam){
+	public Produto(String nome, double preco, 
+		int qtd, String marca, String tam){
 		this.nome = nome;
 		this.preco = preco;
 		this.qtd = qtd;
