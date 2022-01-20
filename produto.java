@@ -2,7 +2,7 @@ public class Produto {
 
 	private String nome;
 	private double preco;
-	private int qtd;
+	public int qtd;
 	private String marca;
 	private String tam;
 
