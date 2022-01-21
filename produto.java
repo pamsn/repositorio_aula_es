@@ -13,6 +13,10 @@ public class Produto {
 		this.marca = marca;
 		this.tam = tam;
 	}
+
+	public String getNome(){
+		return this.nome;
+	}
 }
 
 
