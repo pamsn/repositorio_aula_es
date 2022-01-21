@@ -4,14 +4,14 @@ public class Produto {
 	private double preco;
 	public int qtd;
 	private String marca;
-	private String tam;
+	private String tamanho;
 
-	public Produto(String nome, double preco, int qtd, String marca, String tam){
+	public Produto(String nome, double preco, int qtd, String marca, String tamanho){
 		this.nome = nome;
 		this.preco = preco;
 		this.qtd = qtd;
 		this.marca = marca;
-		this.tam = tam;
+		this.tamanho = tamanho;
 	}
 }
 
